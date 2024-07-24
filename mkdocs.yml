@@ -1,43 +1,4 @@
 site_name: test
 theme:
   name: material
-  features:
-    - navigation.expand
-    - content.tooltips
-  custom_dir: overrides
-markdown_extensions:
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.caret
-  - footnotes 
-  - abbr
-  - attr_list
-  - pymdownx.snippets:
-      auto_append:
-        - includes/abbreviations.md
-  - attr_list
-  - md_in_html
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-watch:
-  - includes
-extra:
-  generator: false
-extra_css:
-  - style.css
-extra_javascript:
-  - javascript.js
-nav:
-  - 'Welcome Back!': index.md
-  - 'Perché non la versione PLUS?': whynotplus.md
-  - 'Secret Files': secretFiles.md
-  - 'Chicche Extra': chiccheExtra.md
-  - 'Il Monologo di Monika': ilmonologodimonika.md
-  - 'Curiosità': curiosita.md
-  - 'Crediti': crediti.md
 
-plugins:
-  - glightbox
